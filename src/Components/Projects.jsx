@@ -61,11 +61,6 @@ return (
 <div className="notes">&#9835;</div>
 <div className="notes">&#9836;</div>
 <div className="projectList">
-    <a>Tassa</a>
-    <a>SWAPI</a>
-    <a>Smartlist</a>
-    <a>Capi</a>
-    <a>Luffarshack</a>
 </div>
 </h3>
 </div>    
