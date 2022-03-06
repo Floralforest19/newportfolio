@@ -58,6 +58,7 @@ text-align: center;
 }
 footer{
   text-align: center;
+  padding-top: 40px;
 }
 /*StartPage*/
 .container{
@@ -86,7 +87,10 @@ flex-direction: column;
 
 
 /*Projects*/
-
+.projectA {
+  display:flex;
+  flex-direction:center
+}
 
 h3{
     position:relative;
