@@ -61,16 +61,16 @@ return (
 <div className="notes">&#9835;</div>
 <div className="notes">&#9836;</div>
 <div className="projectList">
-    <a>Tassa</a>
-    <a>SWAPI</a>
-    <a>Smartlist</a>
-    <a>Capi</a>
-    <a>Luffarshack</a>
+    
+    <a className="projectA">Star Wars API</a>
+    <a className="projectA">Smartlist</a>
+    <a className="projectA" href="https://floralforest19.github.io/capi/">Capi</a>
+    <a className="projectA" href="https://floralforest19.github.io/luffarshack/">Luffarshack</a>
 </div>
 </h3>
 </div>    
 
-    <footer>©By Mikaela Fryklund</footer>
+    <footer>©By Mikaela Fryklund mikaela@fryklunda.se</footer>
   </Fragment>
   );
 }
