@@ -1,7 +1,7 @@
 /*Main*/
 main{
   margin: 0px 10px;
- background-color: #EEE;
+ background-color: #a59f93;
 }
 body{
  
@@ -9,16 +9,20 @@ body{
   color: #333;
 }
 nav{
-background-color: #333;
+background-color: #a59f93;
 display: flex;
 justify-content: center;
 }
 nav a{
-  color: #EEE;
-  padding: 2px;
-  font-size: 17px;
+  color: black;
+  padding: 7px;
+  font-size: 1.5em;
   text-decoration: none;
   font-weight: 700;
+  font-family: monospace;
+}
+a:hover {
+    color: #eeeedd !important;
 }
 button{
   border-radius: 7px 7px 7px 7px;
@@ -28,8 +32,9 @@ button{
 }
 
 .headerNav {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 10px;
+    position: relative;
+    left: 64px;
 }
 h1{
   font-size: 2rem;
@@ -64,7 +69,33 @@ footer{
 .container{
 justify-content: center;
 display:flex;
+}
 
+.swapi{
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/Users/mikfry/Desktop/mikaelaportfolio/src/Assets/swapi-modified.png");
+}
+.capi{
+ height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/Users/mikfry/Desktop/mikaelaportfolio/src/Assets/capi-modified.png");
+}
+.chess{
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url("/Users/mikfry/Desktop/mikaelaportfolio/src/Assets/schack-modified.png");
+}
+.showWallpaper{
+  background-image: url("/Users/mikfry/Desktop/mikaelaportfolio/src/Assets/wallpaper.png");
+    background-attachment: fixed;
+    background-position: 60% 34%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
 }
 .text-container{
   justify-content: center;
@@ -94,29 +125,27 @@ flex-direction: column;
 
 h3{
     position:relative;
-    grid-column: 4/ span 4;
-    grid-row: 1;
+  
 }
 .h3Box{
     position:relative;
-    grid-column: 2/ span 3;
-    grid-row: 1;
     bottom: 75px;
-    justify-self: center;
+    left: 54px;
 
 }
 .note {
     display: table-cell;
     font-size: 2em;
-    color: #333;
+    color: black;
     animation: animate 0.95s infinite;
-   
+   padding-left: 36px;
 }
 
 .notes{
     display: table-cell;
     font-size: 2em;
-    color: #333;
+    color: black;
+    padding-left: 37px;
 }
 
 @keyframes animate {
@@ -173,7 +202,7 @@ h3{
   transform: translateX(0);
 }
 }
-
+/*
 @-webkit-keyframes fadeInLeft {
 0% {
 opacity: 1;
@@ -207,13 +236,13 @@ opacity: 1;
 transform: translateX(0);
 }
 }
-
+*/
 #box{
   position: relative;
-  padding: 4px 4px;
-  animation: fadeInLeft 10s; 
+  left:59px;
+ /* animation: fadeInLeft 10s; 
   -webkit-animation-name: fadeInLeft;
-
+*/
 } 
 .boxes{
   position: relative;
@@ -221,8 +250,9 @@ transform: translateX(0);
 }   
 
 .gridContainer{
-  display:grid;
-  grid-template-columns: 40px 50px auto 50px 40px;
-  grid-template-rows: 25px 25px 25px;
+      display: flex;
+    position: relative;
+    top: 153px;
+    z-index: 1000000;
  
 }
