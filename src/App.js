@@ -18,7 +18,7 @@ export default function App() {
     <Router>
     <main>
       <nav>
-        <div class="headerNav">
+        <div class="headerNav col-1">
         <Link to="/">Home</Link>
         <Link to="/contact">Contact</Link>
         <Link to="/projects">Projects</Link>
